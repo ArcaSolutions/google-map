@@ -10,3 +10,6 @@
 
 # Coveralls
 /coveralls.json
+
+# Editors
+.idea
