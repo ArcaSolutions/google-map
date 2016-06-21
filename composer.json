@@ -5,14 +5,14 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Eric GELOEN",
-            "email": "geloen.eric@gmail.com",
-            "role": "Owner"
-        },
-        {
             "name": "Diego Mosela",
             "email": "diego.mosela@arcasolutions.com",
             "role": "Developer"
+        },
+        {
+            "name": "Eric GELOEN",
+            "email": "geloen.eric@gmail.com",
+            "role": "Owner"
         }
     ],
     "require": {
