@@ -59,7 +59,7 @@ class ApiHelperTest extends \PHPUnit_Framework_TestCase
     {
         $expected = <<<EOF
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en&sensor=false"}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en"}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 
@@ -72,7 +72,7 @@ EOF;
     {
         $expected = <<<EOF
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=fr&sensor=false"}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=fr"}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 
@@ -85,7 +85,7 @@ EOF;
     {
         $expected = <<<EOF
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en&sensor=false"}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en"}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 
@@ -98,7 +98,7 @@ EOF;
     {
         $expected = <<<EOF
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"libraries=geometry,places&language=en&sensor=false"}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"libraries=geometry,places&language=en"}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 
@@ -111,7 +111,7 @@ EOF;
     {
         $expected = <<<EOF
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en&sensor=false","callback":callback}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en","callback":callback}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 
@@ -124,7 +124,7 @@ EOF;
     {
         $expected = <<<EOF
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en&sensor=true"}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en"}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 

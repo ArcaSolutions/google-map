@@ -1004,7 +1004,7 @@ EOF;
 
         $expected = <<<EOF
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en&sensor=false"}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en"}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 <script type="text/javascript">
@@ -1032,7 +1032,7 @@ EOF;
 
         $expected = <<<EOF
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"libraries=geometry&language=en&sensor=false"}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"libraries=geometry&language=en"}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 <script type="text/javascript">
@@ -1058,7 +1058,7 @@ EOF;
 
         $expected = <<<EOF
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"libraries=places&language=en&sensor=false"}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"libraries=places&language=en"}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 <script type="text/javascript">
@@ -1091,7 +1091,7 @@ map.setCenter(map_center);
 }
 </script>
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en&sensor=false","callback":load_ivory_google_map}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en","callback":load_ivory_google_map}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 
@@ -1117,7 +1117,7 @@ EOF;
 
         $expected = <<<EOF
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en&sensor=false"}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en"}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 <script type="text/javascript">
@@ -1156,7 +1156,7 @@ EOF;
 
         $expected = <<<EOF
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en&sensor=false"}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en"}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 <script type="text/javascript">
@@ -1183,7 +1183,7 @@ EOF;
 
         $expected1 = <<<EOF
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en&sensor=false"}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en"}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 <script type="text/javascript">
@@ -1229,7 +1229,7 @@ EOF;
 
         $expected = <<<EOF
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en&sensor=false"}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en"}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 <script type="text/javascript" src="//google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox_packed.js"></script>
@@ -1263,7 +1263,7 @@ height:300px;
 </style>
 <div id="map_canvas" style="width:300px;height:300px;"></div>
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en&sensor=false"}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en"}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 <script type="text/javascript">
