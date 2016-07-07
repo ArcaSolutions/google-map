@@ -120,6 +120,9 @@ class Map extends AbstractJavascriptVariableAsset
     /** @var string */
     protected $language;
 
+    /** @var string */
+    protected $apiKey;
+
     /**
      * Creates a map.
      */
@@ -158,6 +161,7 @@ class Map extends AbstractJavascriptVariableAsset
 
         $this->libraries = array();
         $this->language = 'en';
+        $this->apiKey = null;
     }
 
     /**
@@ -1206,5 +1210,25 @@ class Map extends AbstractJavascriptVariableAsset
     public function setLanguage($language)
     {
         $this->language = $language;
+    }
+
+    /**
+     * Gets the browser API key
+     *
+     * @return string The browser API key
+     */
+    public function getApiKey()
+    {
+        return $this->apiKey;
+    }
+
+    /**
+     * Sets the browser API key
+     *
+     * @param string $apiKey The Browser API key
+     */
+    public function setApiKey($apiKey)
+    {
+        $this->apiKey = $apiKey;
     }
 }
