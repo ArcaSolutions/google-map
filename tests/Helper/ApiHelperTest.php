@@ -120,16 +120,16 @@ EOF;
         $this->assertSame($expected, $this->apiHelper->render('en', array(), 'callback'));
     }
 
-    public function testRenderWithSensor()
+    public function testRenderWithKey()
     {
         $expected = <<<EOF
 <script type="text/javascript">
-function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en"}); };
+function load_ivory_google_map_api () { google.load("maps", "3", {"other_params":"language=en&key=ABQIAAAApsu_yVyPoWjn3yp6vDxlSg"}); };
 </script>
 <script type="text/javascript" src="//www.google.com/jsapi?callback=load_ivory_google_map_api"></script>
 
 EOF;
 
-        $this->assertSame($expected, $this->apiHelper->render('en', array(), null, true));
+        $this->assertSame($expected, $this->apiHelper->render('en', array(), null, 'ABQIAAAApsu_yVyPoWjn3yp6vDxlSg'));
     }
 }
