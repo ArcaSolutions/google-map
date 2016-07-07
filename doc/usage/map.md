@@ -37,6 +37,8 @@ $map->setStylesheetOptions(array(
 ));
 
 $map->setLanguage('en');
+
+$map->setApiKey('ABQIAAAApsu_yVy ... PoWjn3yp6vDxlSg');
 ```
 
 ## Configure map center & zoom
